@@ -1,10 +1,12 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}Home{% endblock title %}
 
 {% block content %}
 <h1>HOME</h1>
-<p>Welcome to my page! Make yourself at home</p>
-<p>Check this out:</p>
-<img src="" alt="">
+<h2>Welcome to my page, make yourself at home!</h2>
+<h3>Check this out:</h3>
+<img src="{% static 'img/sonoma.jpg' %}" alt="" style="width: 65%;">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat doloremque minus accusamus dolores ratione. Reiciendis, perferendis doloremque pariatur beatae, amet optio nihil voluptates corrupti neque laborum, illum unde? Sapiente accusamus veniam id nostrum perferendis ad doloribus cupiditate inventore. Molestias explicabo ratione sunt sapiente iste quidem dignissimos libero possimus ea incidunt fugiat natus veritatis voluptates asperiores reprehenderit deserunt cupiditate at, similique quasi officiis? A non velit ea dolore nesciunt, fugiat exercitationem, quas perspiciatis accusamus incidunt cum provident dolor alias dolorem. Quibusdam.</p>
 {% endblock content %}
